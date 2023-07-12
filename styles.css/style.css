@@ -199,3 +199,30 @@ hr {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer related style */
+footer {
+    display: flex;
+    margin-top: 113px;
+    padding: 130px 230px;
+    gap: 117px;
+}
+
+.footer-column {
+    max-width: 562px;
+}
+
+.footer-title,
+.footer-description {
+    text-align: left;
+}
+
+.footer-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.social-links {
+    display: flex;
+    gap: 24px;
+}
