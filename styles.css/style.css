@@ -8,6 +8,10 @@
     color: #FD6E0A;
 }
 
+.text-secondary {
+    color: #757575;
+}
+
 .btn-primary {
     background: #FD6E0A;
     border-radius: 5px;
@@ -37,7 +41,6 @@
 }
 
 .section-description {
-    color: #757575;
     text-align: center;
     font-size: 18px;
 }
@@ -104,13 +107,16 @@ nav a {
 
 .banner-descrption {
     margin-bottom: 30px;
-    color: #757575;
 }
 
 /* main section */
 main {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
 }
 
 /* about section */
@@ -130,6 +136,23 @@ main {
     text-align: center;
 }
 
+/* skill related styles */
 #what-i-do-description {
     padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
