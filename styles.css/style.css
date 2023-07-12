@@ -162,7 +162,40 @@ main section {
 }
 
 /* resume section styles */
+.resume-container {
+    display: flex;
+    gap: 71px;
+    margin-top: 130px;
+}
+
 .resume-column-title {
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume-item-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-institute {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
 }
