@@ -230,12 +230,14 @@ footer {
     gap: 24px;
 }
 
-.contact input,
+.contact input:not([type="submit"]),
 textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
+    /* jehetu max width deya ase */
     width: 100%;
+    border: none;
 }
 
 .contact {
