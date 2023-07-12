@@ -107,10 +107,25 @@ nav a {
 }
 
 /* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section */
 .about {
-    margin-top: 30px;
+    margin: 130px 0;
     padding: 130px;
     border-radius: 10px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.about-info {
+    text-align: center;
+    margin: ;
 }
