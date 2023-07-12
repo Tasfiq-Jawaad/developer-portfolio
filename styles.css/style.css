@@ -206,6 +206,9 @@ footer {
     margin-top: 113px;
     padding: 130px 230px;
     gap: 117px;
+
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 .footer-column {
@@ -225,4 +228,16 @@ footer {
 .social-links {
     display: flex;
     gap: 24px;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    width: 100%;
+}
+
+.contact {
+    margin-top: 20px;
 }
