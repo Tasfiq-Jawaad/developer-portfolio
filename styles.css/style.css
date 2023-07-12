@@ -36,9 +36,10 @@
 
 /* header related styles */
 .header {
-    background-image: url(../images/header_bg.png);
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, center left;
+    padding-top: 50px;
 }
 
 .section-title {
@@ -58,8 +59,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 200px;
-    padding-top: 30px;
+    margin: 0px 200px 50px 200px;
 }
 
 .nav-title {
