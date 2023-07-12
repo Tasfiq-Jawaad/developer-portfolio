@@ -1,7 +1,7 @@
 /* common shared style */
 * {
     font-family: 'Open Sans', sans-serif;
-    /* margin: 0; */
+    margin: 0;
 }
 
 .text-primary {
@@ -49,6 +49,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
+    padding-top: 30px;
 }
 
 .nav-title {
@@ -127,5 +128,8 @@ main {
 
 .about-info {
     text-align: center;
-    margin: ;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
 }
