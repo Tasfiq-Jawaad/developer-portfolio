@@ -12,6 +12,14 @@
     color: #757575;
 }
 
+.text-tertiary {
+    color: #474747;
+}
+
+.text-title {
+    color: #181818;
+}
+
 .btn-primary {
     background: #FD6E0A;
     border-radius: 5px;
@@ -34,7 +42,6 @@
 }
 
 .section-title {
-    color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -56,7 +63,6 @@ nav {
 }
 
 .nav-title {
-    color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
@@ -73,7 +79,6 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #474747;
 }
 
 
@@ -94,7 +99,6 @@ nav a {
 
 .banner-greeting {
     font-size: 45px;
-    color: #474747;
     margin-bottom: 0;
 }
 
@@ -155,4 +159,10 @@ main section {
 .skill-title {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* resume section styles */
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
 }
