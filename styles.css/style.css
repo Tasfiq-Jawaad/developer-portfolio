@@ -253,7 +253,6 @@ textarea {
     margin-top: 20px;
 }
 
-
 /* responsive styles */
 
 /* mobile devices */
@@ -263,8 +262,8 @@ textarea {
         text-align: justify;
     }
 
-    .skills-container {
-        display: flex;
+    .skills-container,
+    .resume-container {
         flex-direction: column;
         width: 90%;
         margin: auto;
@@ -274,6 +273,11 @@ textarea {
         padding: 30px;
         border-radius: 5px;
         box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.06);
+    }
+
+    /* resume section */
+    .resume-container {
+        margin-top: 70px;
     }
 
 }
