@@ -243,10 +243,11 @@ footer {
 textarea {
     display: block;
     margin-bottom: 25px;
-    padding: 18px 35px;
+    padding: 18px 20px;
     /* jehetu max width deya ase */
     width: 100%;
     border: none;
+    box-sizing: border-box;
 }
 
 .contact {
@@ -278,6 +279,27 @@ textarea {
     /* resume section */
     .resume-container {
         margin-top: 70px;
+    }
+
+    /* footer section */
+    footer {
+        flex-direction: column-reverse;
+        padding: 50px 30px;
+
+        height: auto;
+    }
+
+    .contact input:not([type="submit"]),
+    textarea {
+        margin-bottom: 25px;
+        padding: 18px 10px;
+        box-sizing: border-box;
+        width: 100%;
+        border: none;
+    }
+
+    .contact {
+        text-align: center;
     }
 
 }
