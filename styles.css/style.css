@@ -77,6 +77,10 @@ nav li {
     margin-right: 50px;
 }
 
+.nav-links {
+    display: none;
+}
+
 nav a {
     text-decoration: none;
 }
@@ -254,10 +258,70 @@ textarea {
     margin-top: 20px;
 }
 
+
+
 /* responsive styles */
 
 /* mobile devices */
 @media screen and (max-width: 576px) {
+    .header {
+        padding-top: 20px;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+
+    .nav-title {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    nav>ul {
+        display: none;
+    }
+
+    .nav-links {
+        display: block;
+        margin-right: 0;
+    }
+
+    .hire-btn {
+        padding: 5px 10px;
+    }
+
+    .banner {
+        padding: 30px 30px 0px 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner-greeting {
+        font-size: 30px;
+    }
+
+    .banner-title {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .banner-descrption {
+        margin-bottom: 30px;
+    }
+
+    .contact-btn {
+        border-radius: 5px;
+        border: 1px solid #FD6E0A;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px 25px;
+        margin-left: 30px;
+    }
+
     .about {
         padding: 30px;
     }
